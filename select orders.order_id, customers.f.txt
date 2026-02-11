@@ -1,0 +1,27 @@
+select orders.order_id, customers.first_name,
+Customers.customer_id, orders.items from Orders
+inner join customers on
+Orders.customer_id = customers.customer_id;
+
+Select Id , Name, Amount, Date from 
+Customers Inner Join Orders on
+Customers.Id = orders.customers_id;
+
+select Customers.customer_id, first_namer, amount from
+customers inner join orders on
+customers.customer_id = orders.customer_id;
+
+Select Id , Name, Amount, Date from 
+Customers Left Join Orders on
+Customers.Id = orders.customers_id;
+
+select * from
+Orders left join customers on
+customers.customer_id = orders.customer_id;
+
+Select Id, Name, Amount, Date
+From Customers, Orders,
+
+
+select first_name, amount
+ from Customers, Orders;
